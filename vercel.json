@@ -1,0 +1,5 @@
+{
+  "redirects": [
+    { "source": "/LP2", "destination": "/LP2/", "permanent": true }
+  ]
+}
