@@ -4,3 +4,4 @@
 .reforms-page .portfolio-track{transition:none!important;width:max-content}
 .reforms-page .portfolio-track figure{flex-basis:auto!important}
 .reforms-page #servicos .service-cta{background:#ffc531;color:#171918;border:0;border-radius:6px;padding:12px 14px;margin-top:18px;display:flex;align-items:center;justify-content:space-between;font-size:12px;font-weight:800;transition:background .2s,transform .2s}.reforms-page #servicos .service:hover .service-cta{background:#ffd866;transform:translateY(-2px)}.reforms-page #servicos .service-cta b{font-size:16px}
+.reforms-page .hero-video{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:0}.reforms-page .hero-background{z-index:0}.reforms-page .hero-shade{z-index:1}.reforms-page .hero-inner,.reforms-page .hero-credit{z-index:2}
