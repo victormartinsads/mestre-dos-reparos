@@ -8,3 +8,4 @@
 .reforms-page #trabalhos .portfolio-carousel{grid-template-columns:1fr}.reforms-page #trabalhos .carousel-btn{display:none}
 .reforms-page #trabalhos .portfolio-track figure img{width:100%;height:auto!important;aspect-ratio:4/3;object-fit:cover;object-position:center}
 .reforms-page #trabalhos .portfolio-track figure img{height:220px!important;aspect-ratio:auto}@media(max-width:600px){.reforms-page #trabalhos .portfolio-track figure img{height:180px!important}}
+.reforms-page #trabalhos .portfolio-track figure{flex:0 0 220px!important;width:220px!important}.reforms-page #trabalhos .portfolio-track figure img{width:220px!important;height:300px!important;aspect-ratio:auto;border-radius:8px;object-fit:cover}@media(max-width:600px){.reforms-page #trabalhos .portfolio-track figure{flex-basis:220px!important;width:220px!important}.reforms-page #trabalhos .portfolio-track figure img{width:220px!important;height:300px!important}}
