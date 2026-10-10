@@ -12,3 +12,4 @@
 .reforms-page .hero-video{z-index:1}.reforms-page .hero-background{z-index:0}.reforms-page .hero-shade{z-index:2}.reforms-page .hero-inner,.reforms-page .hero-credit{z-index:3}
 .reforms-page .hero-background{display:none!important}
 .reforms-page .btn[data-contact]{gap:10px}.reforms-page .btn[data-contact]::before{content:"◔";display:inline-grid;place-items:center;width:19px;height:19px;border-radius:50%;background:#25d366;color:#fff;font-size:12px;font-weight:900;line-height:1}.reforms-page #servicos .service-cta b{display:none}
+.reforms-page .whatsapp-icon{width:18px;height:18px;object-fit:contain;filter:invert(40%) sepia(92%) saturate(1027%) hue-rotate(95deg) brightness(92%);display:inline-block}.reforms-page .btn.small .whatsapp-icon{width:15px;height:15px}
