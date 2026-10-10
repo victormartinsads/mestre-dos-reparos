@@ -9,6 +9,8 @@
   let paused=false;
   let last=performance.now();
   const speed=24;
+  function visible(){ return viewport.clientWidth < 700 ? 1 : viewport.clientWidth < 1000 ? 2 : 3; }
+  function sizeItems(){ const gap=16; const width=(viewport.clientWidth-(visible()-1)*gap)/visible(); [...track.children].forEach(item=>{item.style.flex='0 0 '+width+'px';}); }
   function loopWidth(){ return track.scrollWidth/2; }
   function render(){ track.style.transform='translate3d(-'+offset+'px,0,0)'; }
   function frame(now){
@@ -30,6 +32,8 @@
   carousel.querySelector('.prev').addEventListener('click',()=>nudge(-1));
   carousel.addEventListener('mouseenter',()=>paused=true);
   carousel.addEventListener('mouseleave',()=>{paused=false;last=performance.now();});
-  window.addEventListener('resize',render);
+  window.addEventListener('resize',()=>{sizeItems();render();});
+  sizeItems();
   requestAnimationFrame(frame);
 })();
+
