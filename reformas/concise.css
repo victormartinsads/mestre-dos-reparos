@@ -15,3 +15,4 @@
 .reforms-page .whatsapp-icon{width:18px;height:18px;object-fit:contain;filter:invert(40%) sepia(92%) saturate(1027%) hue-rotate(95deg) brightness(92%);display:inline-block}.reforms-page .btn.small .whatsapp-icon{width:15px;height:15px}
 .reforms-page .btn[data-contact]::before{content:none}.reforms-page #servicos .service-cta::before{content:"";width:17px;height:17px;background:url("assets/whatsapp-icon-transparent.png") center/contain no-repeat;filter:invert(40%) sepia(92%) saturate(1027%) hue-rotate(95deg) brightness(92%)}
 .reforms-page #servicos .service-help{font-size:14px;line-height:1.6}.reforms-page #servicos .service-help strong{font-size:15px}
+.reforms-page #servicos .service-cta{position:relative;justify-content:center;text-align:center}.reforms-page #servicos .service-cta::before{position:absolute;right:14px;filter:brightness(0)}
