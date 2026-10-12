@@ -1,5 +1,14 @@
 {
   "redirects": [
-    { "source": "/LP2", "destination": "/LP2/", "permanent": true }
+    {
+      "permanent": true,
+      "source": "/",
+      "destination": "/reformas/"
+    },
+    {
+      "permanent": true,
+      "source": "/LP2",
+      "destination": "/LP2/"
+    }
   ]
 }
