@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-Disallow: /LP2/
 Sitemap: https://mestredosreparosrj.com.br/sitemap.xml
